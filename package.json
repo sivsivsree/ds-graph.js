@@ -1,0 +1,23 @@
+{
+  "name": "ds-graph",
+  "version": "1.0.0",
+  "description": "Graph Data Manipulation.",
+  "main": "getSubTrees.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ls -al"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivsivsree/ds-graph.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivsivsree/ds-graph.js/issues"
+  },
+  "homepage": "https://github.com/sivsivsree/ds-graph.js#readme"
+}
