@@ -10,9 +10,9 @@ pipeline {
       }
     }
      
-    stage('Test') {
+    stage('Testing') {
       steps {
-         sh 'npm test'
+         sh 'ls'
       }
     }      
   }
