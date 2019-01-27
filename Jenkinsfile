@@ -14,6 +14,11 @@ pipeline {
       steps {
          sh 'node test.js'
       }
-    }      
+    }
+
+   stage('Deployment') {
+     steps {
+      sh 'echo deployed'
+    }       
   }
 }
