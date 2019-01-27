@@ -12,7 +12,7 @@ pipeline {
      
     stage('Testing') {
       steps {
-         sh 'ls'
+         sh 'node test.js'
       }
     }      
   }
